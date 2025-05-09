@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Hong Anh Chu | Generative AI Portfolio</title>
+  <style>
+    :root {
+      --primary: #0aa07a;
+      --dark: #0d0d0d;
+      --light-green: #f4faf7;
+      --light-blue: #eef7fb;
+      --max-width: 900px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: var(--dark);
+      background: var(--light-green);
+      scroll-behavior: smooth;
+    }
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header nav {
+      max-width: var(--max-width);
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+    }
+    header nav a { color: #fff; text-decoration: none; margin: 0.5rem; font-weight: bold; }
+    header nav a:hover { text-decoration: underline; }
+
+    /* sections */
+    section {
+      padding: 2.5rem 1rem;
+      max-width: var(--max-width);
+      margin: auto;
+    }
+    section:nth-of-type(odd) { background: var(--light-green); }
+    section:nth-of-type(even) { background: var(--light-blue); }
+
+    h1, h2 { margin-bottom: 1rem; }
+    ul { margin-left: 1.25rem; }
+    ol { margin-left: 1.5rem; }
+
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      background: var(--primary);
+      color: #fff;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      margin-left: 0.5rem;
+    }
+
+    /* profile photo */
+    .profile-photo {
+      max-width: 160px;
+      border-radius: 50%;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    /* table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: 0.75rem 0.5rem;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+    th { background: var(--primary); color: #fff; }
+    tr:nth-child(even) td { background: rgba(0,0,0,0.03); }
+
+    footer {
+      background: #eee;
+      color: #333;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #111; color: #eee; }
+      header { background: #0c8; }
+      footer { background: #222; color: #aaa; }
+      section:nth-of-type(odd), section:nth-of-type(even) { background: #1a1a1a; }
+      table tr:nth-child(even) td { background: rgba(255,255,255,0.05); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div><strong>Dr. Hong Anh Chu</strong></div>
+      <div>
+        <a href="#about-me">About Me</a>
+        <a href="#about-course">About the Course</a>
+        <a href="#submissions">Submissions</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Me -->
+    <section id="about-me">
+      <h2>About Me</h2>
+      <!-- Profile photo -->
+      <img src="https://photos.google.com/photo/AF1QipOfFZiktqDxI-O6EGm9SSmIOKpo-LOmGBr6Ov_1" alt="Dr. Hong Anh Chu" class="profile-photo" />
+
+      <p>
+        Public health professional specializing in health information systems,
+        monitoring &amp; evaluation, and data‑driven decision‑making. Over two
+        decades of experience leading global initiatives at the World Health
+        Organization and in the field.
+      </p>
+      <h3>Highlights</h3>
+      <ul>
+        <li>
+          Lead for the SCORE global assessment of health data systems capacity
+          across <strong>165 countries</strong><span class="badge">2024‑2025</span>
+        </li>
+        <li>Expertise in <em>result‑based management</em>, data quality assurance, and digital health standards.</li>
+        <li>Mobilized funding up to USD&nbsp;3 million and coordinated multi‑stakeholder teams.</li>
+        <li>Hands‑on practitioner of DHIS2 and modern AI‑assisted data workflows.</li>
+      </ul>
+      <p>
+        I am currently upskilling in generative AI to accelerate global health data projects and mentor teams in leveraging AI responsibly.
+      </p>
+    </section>
+
+    <!-- About the Course -->
+    <section id="about-course">
+      <h2>About the Course</h2>
+      <p>
+        <strong>Generative AI for Work &amp; Research Productivity</strong> is an 8‑week live online program (starts <time datetime="2025-05-09">9 May 2025</time>) focused on no‑code AI tools for automating documents, data analysis, and routine tasks.
+      </p>
+      <h3>Key Outcomes</h3>
+      <ul>
+        <li>Automate document, spreadsheet, and data workflows</li>
+        <li>Organize research knowledge and perform literature reviews with AI</li>
+        <li>Develop custom chatbots and AI‑powered dashboards</li>
+        <li>Create professional visuals and presentations using generative tools</li>
+        <li>Deliver a capstone AI solution</li>
+      </ul>
+
+      <h3>Workshop Session</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Option</th>
+            <th>Day</th>
+            <th>Time (GMT)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Session A</td>
+            <td>Friday</td>
+            <td>15:00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Core Modules</h3>
+      <ol>
+        <li>Documents, Presentations &amp; Websites</li>
+        <li>Automated Data Analysis</li>
+        <li>GenAI for Research &amp; Text Analysis</li>
+        <li>Custom GPTs and Chatbots</li>
+        <li>AI Workflows for Task Automation</li>
+        <li>GenAI for Communication &amp; Outreach</li>
+        <li>Capstone Project &amp; Showcase</li>
+      </ol>
+    </section>
+
+    <!-- Weekly Submissions -->
+    <section id="submissions">
+      <h2>My Weekly Submissions</h2>
+      <p>Links will be added here as each assignment is completed:</p>
+      <ul>
+        <li><a href="#">Week 1 – Portfolio Skeleton</a></li>
+        <li><a href="#">Week 2 – Automated Data Report</a></li>
+        <li><a href="#">Week 3 – Literature Review Bot</a></li>
+        <li><a href="#">Week 4 – Custom GPT Demo</a></li>
+        <li><a href="#">Week 5 – Workflow Automation</a></li>
+        <li><a href="#">Week 6 – Outreach Assets</a></li>
+        <li><a href="#">Week 7 – Capstone Prototype</a></li>
+        <li><a href="#">Week 8 – Capstone Presentation</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Dr. Hong Anh Chu — Portfolio Site for the Generative AI for Work &amp; Research Course
+  </footer>
+</body>
+</html>
